@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        .nav {
+            border-bottom: 1px solid black;
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            height: 100px;
+            position : relative;
+        }
+        .line {
+            
+            width: 100%;
+            height: 100px
+
+        }
+        .card{
+            margin: 0;
+            display: flex;
+            width: 100%;
+           
+        }
+        .img-blend{
+            width: 200px;
+            height: 100px;
+            margin-bottom: 10px;
+        }
+        .i{
+            display: flex;
+            height: 100%;
+            flex-direction: column;
+            flex-grow : 1;
+           
+        }
+        .line2  {
+            border-right: 1px solid black;
+            height: 800px;
+        }
+
+        .nav_button1{
+            border : 1px solid black;
+            border-radius : 10px 10px 10px 10px;
+            width : 100px;
+            height : 50px;
+            text-align: center;
+            padding : 1rem;
+            cursor: pointer;
+            float : left;
+            
+            
+
+        }
+
+        .nav_button2{
+            border : 1px solid black;
+            border-radius : 10px 10px 10px 10px;
+            padding : 1rem;
+            cursor: pointer;
+            float : right;   }
+            .nav_deco1{
+            padding : 10px 30px;
+            background-color: white;
+            
+        }
+
+        .nav_deco2{
+            padding : 10px 30px;
+            background-color: white;
+            
+        }
+        .album{
+            border: 1px solid black;
+            background-color: black;
+            font-size: 15px;
+            color: white;
+            width: 200px;
+            height : 280px;
+            
+        
+        
+        }
+
+        .album_image{
+            width : 80%;
+            height : 80%;
+            margin-top : 5%;
+            margin-left : 10%;
+        }
+       .album-display{
+            display: flex;
+            justify-content: space-between;
+            margin: 10px;
+            flex-wrap: wrap;
+       }
+       .album-display1{
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            margin: 30px;
+       }
+       .footer{
+        border-top: 1px solid black;
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+        height: 200px;
+        
+       }
+        .body{
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+
+
+</head>
+<body class="body">
+    <div class="card">
+    <div class="line2">
+        <img class="img-blend" src="spotify.png" alt="스포티파이">
+        <div><strong>홈</strong></div>
+        <br>
+        <div><strong>검색하기</strong></div>
+        <br>
+        <div><strong>내 라이브러리</strong></div>
+    </div>
+    <div class=i>
+        <div class="nav">
+            <div class="nav_deco1">
+                <p class ="nav_button1"><</p>
+                <p class ="nav_button1">></p>
+            </div>
+            
+        
+            <div class="nav_deco2">
+            
+                <p class ="nav_button2">로그인하기</p>
+                <p class ="nav_button2">가입하기</p>
+            </div>
+        </div>
+        <div class="album-display1">
+            <div class="album-display">
+            <div class="album">
+                <img class="album_image" src="아이유 앨범1.png" alt="아이유">
+                <div>아이유</div>
+                <span style="color: gray;">라일락</span>
+            </div>
+            <div class="album">
+                <img class="album_image" src="아이유 앨범1.png" alt="아이유">
+                <div>아이유</div>
+                <span style="color: gray;">봄 안녕 봄</span>
+            </div>
+            <div class="album">
+                <img class="album_image" src="아이유 앨범2.png" alt="아이유">
+                <div>아이유</div>
+                <span style="color: gray;">팔레트</span>
+            </div>
+            <div class="album">
+                <img class="album_image" src="아이유 앨범2.png" alt="아이유">
+                <div>아이유</div>
+                <span style="color: gray;">이런 엔딩</span>
+            </div>
+            <div class="album">
+                <img class="album_image" src="아이유 앨범3.png" alt="아이유">
+                <div>아이유</div>
+                <span style="color: gray;">사랑을 드려요</span>
+            </div>
+            <div class="album">
+                <img class="album_image" src="아이유 앨범4.png" alt="아이유">
+                <div>아이유</div>
+                <span style="color: gray;">스물셋</span>
+            </div>
+        </div>
+        <div class="album-display">
+            <div class="album">
+                <img class="album_image" src="아이유 앨범4.png" alt="아이유">
+                <div>아이유</div>
+                <span style="color: gray;">Zeze</span>
+            </div>
+            <div class="album">
+                <img class="album_image" src="아이유 앨범1.png" alt="아이유">
+                <div>아이유</div>
+                <span style="color: gray;">라일락</span>
+            </div>
+            <div class="album">
+                <img class="album_image" src="아이유 앨범1.png" alt="아이유">
+                <div>아이유</div>
+                <span style="color: gray;">라일락</span>
+            </div>
+            <div class="album">
+                <img class="album_image" src="아이유 앨범1.png" alt="아이유">
+                <div>아이유</div>
+                <span style="color: gray;">라일락</span>
+            </div>
+            <div class="album">
+                <img class="album_image" src="아이유 앨범1.png" alt="아이유">
+                <div>아이유</div>
+                <span style="color: gray;">라일락</span>
+            </div>
+            <div class="album">
+                <img class="album_image" src="아이유 앨범1.png" alt="아이유">
+                <div>아이유</div>
+                <span style="color: gray;">라일락</span>
+            </div>
+        </div>
+        </div>
+            
+    </div>
+</div>
+        <footer class="footer">
+            Hypergrowth
+        </footer>
+    
+    
+</body>
+
+</html>

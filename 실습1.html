@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing : border-box;
+            margin : 0;
+            padding : 0;
+        }
+        *tnav{
+            width : 100%;
+            height : 50px;
+            display : flex;
+            justify-content: center;
+        }
+        .box {
+            padding: 2em 2em;
+        }
+        .navibar {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .content__main {
+            display: flex;
+            flex-direction: row;
+        }
+        .content__1 {
+            display: flex;
+            flex-direction: column;
+            flex : 0.3;
+        }
+        .content__2 {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            flex : 2;
+        }
+        .content__2__line {
+            border-bottom: 1.5px solid lightgray;
+            margin-bottom: 0.3em;
+        }
+        .wikipedia_intro {
+            font-size: 0.7em;
+            margin-bottom: 1.5em;
+        }
+        .content__2__1 {
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+        }
+        .content__2__1__1 {
+            display: flex;
+            flex-direction: column;
+            width : 100%;
+            flex : 3
+        }
+        .content__2__1__2 {
+            display: flex;
+            flex-direction: column;
+            width : 100%;
+            flex : 3;
+        }
+        .information {
+            border : 1px solid lightgray;
+            background-color: rgb(rgb(60, 85, 100), green, blue);
+            flex : 1.1;
+        }
+        .tim__box {
+            display: flex;
+            flex-direction: column;
+            background-color: gray;
+            width : 96%;
+            margin-bottom: 0.3em;
+        }
+        .tim__image {
+            width: 90%;
+        }
+        
+
+
+    
+    </style>
+
+</head>
+<body>
+    <div class="box">
+        <div class="navibar">
+            <div><img src="2 (1).png" alt="위키백과 이미지"></div>
+            <div id="처음위치"><a href="https://ko.wikipedia.org/w/index.php?title=%ED%8A%B9%EC%88%98:%EA%B3%84%EC%A0%95%EB%A7%8C%EB%93%A4%EA%B8%B0&returnto=%EC%9C%84%ED%82%A4%EB%B0%B1%EA%B3%BC%3A%EB%8C%80%EB%AC%B8">계정 만들기</a> &nbsp; <a href="https://ko.wikipedia.org/w/index.php?title=%ED%8A%B9%EC%88%98:%EB%A1%9C%EA%B7%B8%EC%9D%B8&returnto=%EC%9C%84%ED%82%A4%EB%B0%B1%EA%B3%BC%3A%EB%8C%80%EB%AC%B8">로그인</a>
+            </div>
+        </div>
+        <div class="content__main">
+            <div class=content__1>
+                <p>목차</p>
+                <a href="#처음위치">처음위치</a>
+                <a href="#생애">생애</a>
+                <a href="#약력">약력</a>
+                <a href="#저서">저서</a>
+            </div>
+            <div class="content__2">
+                <div class="content__2__line"><h1><strong>팀 버너스리</strong></h1></div>
+                <div class="wikipedia_intro">위키백과 우리 모두의 백과사전</div>
+                <div class="content__2__1">
+                    <div class="content__2__1__1">
+                        <div>팀 버너스리의 인물소개</div>
+                        <div class="content__2__line" id ="생애"><h2><strong>생애</strong></h2></div>
+                        <div>버너스리는 잉글랜드에서 태어났으며...</div>
+                        <div class="content__2__line" id ="약력"><h2><strong>약력</strong></h2></div>
+                        <div>www 개념의 기초가 된 ~~~ 개발</div>
+                        <div class="content__2__line" id="저서"><h2><strong>저서</strong></h2></div>
+                        <div>당신이 꿈꾸는 인터넷 세상...</div>
+                    </div>
+                    <div class="information">인물소개상자
+                        <center><div class="tim__box">
+                            <center><h3><strong>팀 버너스리</strong></h3></center>
+                            <center><strong>영어 풀네임</strong></center>
+                        </div></center>
+                        <div><center><img class="tim__image" src="01.jpg" alt="팀 버너스리"></div></center>
+                        <div>인물 정보</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>하단 바</div>
+    </div>
+</body>
+</html>
